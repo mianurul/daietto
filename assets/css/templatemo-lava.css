@@ -147,7 +147,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: rgb(244,129,63);
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -166,7 +166,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: rgb(244,129,63);
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -188,7 +188,7 @@ button.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: rgb(244,129,63);
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -219,7 +219,7 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #f4813f;
+  color: rgb(244,129,63);
 }
 
 .center-heading p {
@@ -251,11 +251,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: rgb(244,129,63)!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: rgb(244,129,63)!important;
 }
 
 .header-area {
@@ -332,7 +332,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #fba70b;
+  color: rgb(244,129,63);
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -397,12 +397,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fba70b;
+  background: rgb(244,129,63);
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fba70b!important;
+  color: rgb(244,129,63)!important;
   padding-left: 25px;
 }
 
@@ -538,7 +538,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fba70b;
+  color: rgb(244,129,63)b;
 }
 
 @media (max-width: 1200px) {
@@ -606,7 +606,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fba70b!important;
+    color: rgb(244,129,63)!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -680,7 +680,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: rgb(244,129,63);
 }
 
 .welcome-area .header-text p {
@@ -875,7 +875,8 @@ testimonials
 
 #testimonials .item .testimonial-content {
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(226,149,120,1) 0%, rgba(255,221,210,1) 100%);
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   margin-left: 60px;
   padding: 40px 30px;
   text-align: center;
@@ -888,25 +889,25 @@ testimonials
 }
 
 #testimonials .item .testimonial-content ul li i {
-  color: #fff;
+  color: #000;
   font-size: 13px;
 }
 
 #testimonials .item .testimonial-content h4 {
   font-size: 22px;
   margin-top: 20px;
-  color: #fff;
+  color: #000;
 }
 
 #testimonials .item .testimonial-content p {
-  color: #fff;
+  color: #000;
   font-style: italic;
   font-weight: 200;
   margin: 20px 0px 15px 0px;
 }
 
 #testimonials .item .testimonial-content span {
-  color: #fff;
+  color: #000;
   font-weight: 200;
   font-size: 13px;
 }
@@ -921,7 +922,7 @@ testimonials
   top: 45%;
   border-radius: 10px;
   font-size: 46px;
-  color: #fff;
+  color: #000;
   right: -210px;
   width: 80px;
   height: 80px;
@@ -929,7 +930,8 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(226,149,120,1) 0%, rgba(255,221,210,1) 100%);
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   position: absolute;
 }
 
@@ -938,7 +940,7 @@ testimonials
   top: 30%;
   border-radius: 10px;
   font-size: 46px;
-  color: #fff;
+  color: #000;
   right: -150px;
   width: 80px;
   height: 80px;
@@ -946,7 +948,8 @@ testimonials
   text-align: center;
   display: inline-block;
   background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(226,149,120,1) 0%, rgba(255,221,210,1) 100%);
+  background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   position: absolute;
 }
 
